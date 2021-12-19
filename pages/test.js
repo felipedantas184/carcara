@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Button } from '../components/ButtonElement'
+import Card from '../components/Card'
 import Hero from '../components/Hero'
 
-export default function Home() {
+export default function Test() {
   return (
     <>
       <Head>
