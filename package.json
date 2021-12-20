@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "contentful": "^9.1.5",
+    "googleapis": "^92.0.0",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-awesome-reveal": "^3.8.1",
