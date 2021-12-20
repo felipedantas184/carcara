@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside`
   right: 0;
   transition: 0.7s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  left: ${({ isOpen }) => (isOpen ? '0' : '100%')};
+  right: ${({ isOpen }) => (isOpen ? '0' : '100%')};
 
   font-family: "Saira Stencil One";
 `
