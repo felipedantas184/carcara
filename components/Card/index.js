@@ -23,7 +23,7 @@ const Card = ({ member }) => {
 							<CardTextWrapper>
 								<TopCard>
 									<ProfilePicWrapper>
-										<Image src={`'https://drive.google.com/uc?id=' + ${member.imageUrl}`} layout="fill" />
+										<img src={'https://drive.google.com/uc?id=' + member.imageUrl} alt="photo" />
 									</ProfilePicWrapper>
 
 									<InfoWrapper>
