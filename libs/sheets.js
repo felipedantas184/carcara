@@ -23,7 +23,7 @@ export async function getDataFromSheets() {
         name: row[1],
         registration: row[2],
         document: row[3],
-        imageUrl: row[4].slice(33),
+        imageUrl: `https://drive.google.com/uc?id=${row[4].slice(33)}`,
       }));
     }
   } catch (err) {
