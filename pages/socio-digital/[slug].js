@@ -1,6 +1,7 @@
 import { createClient } from 'contentful'
 import Card from '../../components/Card'
 import { getDataFromSheets } from '../../libs/sheets';
+import Image from 'next/image'
 
 export const getStaticPaths = async () => {
     const sheets = await getDataFromSheets();
@@ -36,7 +37,9 @@ export default function RecipeDetails({ member }) {
     return (
       <>
         <h1>{member.name}</h1>
-    
+        <h2>{member.registration}</h2>
+        <h3>{member.document}</h3>
+        <Image src={'https://drive.google.com/uc?id=' + member.imageUrl} width={60} height={60} />
       </>
     )
 }

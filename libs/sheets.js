@@ -20,9 +20,10 @@ export async function getDataFromSheets() {
 
     if (rows.length) {
       return rows.map((row) => ({
-        name: row[0],
-        registration: row[1],
-        document: row[2],
+        name: row[1],
+        registration: row[2],
+        document: row[3],
+        imageUrl: row[4].slice(33),
       }));
     }
   } catch (err) {

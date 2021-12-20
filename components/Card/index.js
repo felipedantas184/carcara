@@ -4,7 +4,11 @@ import { Button, ButtonWrapper } from "../ButtonElement";
 import CardFlip from "../CardFlip";
 
 const Card = ({ member }) => {
+	{/**
+		Part of CONTENTFUL 
 	const { userName, slug, userPhoto, userRegistration, userDocument } = member.fields
+		Part of CONTENTFUL 
+	*/}
 
 	return ( 
 		<CardContainer>
@@ -19,19 +23,19 @@ const Card = ({ member }) => {
 							<CardTextWrapper>
 								<TopCard>
 									<ProfilePicWrapper>
-										<Image src={'https:' + userPhoto.fields.file.url} layout="fill" />
+										<Image src={'https://drive.google.com/uc?id=' + member.imageUrl} layout="fill" />
 									</ProfilePicWrapper>
 
 									<InfoWrapper>
 										<InfoGroupOne>
-											<UserName>{userName}</UserName>
-											<UserRegistration>{userRegistration}</UserRegistration>
+											<UserName>{member.name}</UserName>
+											<UserRegistration>{member.registration}</UserRegistration>
 										</InfoGroupOne>
 
 										<InfoGroupTwo>
 											<InfoGroupOne>
 												<InfoTitle>RG</InfoTitle>
-												<InfoResponse>{userDocument}</InfoResponse>
+												<InfoResponse>{member.document}</InfoResponse>
 											</InfoGroupOne>
 
 											<InfoGroupOne>
