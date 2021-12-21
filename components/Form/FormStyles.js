@@ -7,7 +7,7 @@ export const FormContainer = styled.section`
   background-size: cover;
   background-color: #151E3F;
 	color: #F0EDEE;
-	font-family: 'Saira Stencil One';
+	font-family: 'Campus Personal Use';
   margin-top: -60px;
 `
 export const FormWrapper = styled.div`
@@ -142,7 +142,7 @@ export const Label = styled.label`
 	position: absolute;
 	top: 0;
 	font-size: 24px;
-	font-family: 'Saira Stencil One';
+	font-family: 'Campus Personal Use';
 	user-select: none;
 
 	/* Hide it by default */
@@ -171,7 +171,7 @@ export const Input = styled.input`
 
   &::-webkit-input-placeholder {
     color: #F6F6F6;
-		font-family: 'Saira Stencil One';
+    font-family: 'Campus Personal Use';
 		transition: all 200ms;
   }
 

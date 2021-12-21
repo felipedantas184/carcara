@@ -7,7 +7,7 @@ export const HeroContainer = styled.section`
   background-size: cover;
   background-color: #151E3F;
 	color: #F0EDEE;
-	font-family: 'Saira Stencil One';
+	font-family: 'Campus Personal Use';
   margin-top: -60px;
 `
 export const HeroWrapper = styled.div`

@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll'
 export const NavbarContainer = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? '#151E3F' : 'transparent')};
 	color: #F0EDEE;
-	font-family: 'Saira Stencil One';
+	font-family: 'Campus Personal Use';
 	position: sticky;
   top: 0;
 	z-index:10;
@@ -25,6 +25,10 @@ export const NavbarLogo = styled.a`
 	text-decoration: none;
 	color: #D47734;
 	font-size: 26px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 8px;
+  }
 `
 export const LogoWrapper = styled.div`
   display: none;

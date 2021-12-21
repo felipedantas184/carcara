@@ -85,7 +85,7 @@ export const SocialLogo = styled.a`
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-  font-family: "Saira Stencil One";
+	font-family: 'Campus Personal Use';
 `
 export const WebsiteRights = styled.small`
   color: #fff;

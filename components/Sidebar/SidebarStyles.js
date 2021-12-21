@@ -18,7 +18,7 @@ export const SidebarContainer = styled.aside`
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   right: ${({ isOpen }) => (isOpen ? '0' : '100%')};
 
-  font-family: "Saira Stencil One";
+	font-family: 'Campus Personal Use';
 `
 
 export const CloseIcon = styled(FaTimes)`
