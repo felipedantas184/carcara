@@ -269,7 +269,7 @@ export const InfoWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) and (min-width: 340px) {
-    gap: 16px;
+    gap: 14px;
     margin-top: 0;
   }
 `
@@ -285,11 +285,15 @@ export const UserName = styled.p`
   font-family: 'Rubik';
   line-height: 1.3;
   color: #FFF;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 4px;
   text-align: left;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 
   @media screen and (max-width: 340px) {
     font-size: 16px;
@@ -299,8 +303,16 @@ export const UserName = styled.p`
 export const UserRegistration = styled.p`
   font-family: 'Rubik';
   color: #FFF;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 12px;
+  }
 `
 
 
@@ -316,16 +328,32 @@ export const InfoGroupTwo = styled.div`
 export const InfoTitle = styled.p`
   font-family: 'Rubik';
   color: #FFF;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   text-align: left;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 14px;
+  }
 `
 
 export const InfoResponse = styled.p`
   font-family: 'Rubik';
   color: #FFF;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 340px) {
+    font-size: 12px;
+  }
 `
 
 export const FlipCardBack = styled.div`

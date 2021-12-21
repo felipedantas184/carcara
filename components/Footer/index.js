@@ -22,20 +22,20 @@ const Footer = () => {
             </Link>
             <WebsiteRights>CARCARÁ © {new Date().getFullYear()} Criado por Felipe Dantas.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink rel="noreferrer" href='https://www.facebook.com/MeuProf.THE/' target='_blank' arial-label='Facebook'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/aaacarcara/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/meu.prof/' target='_blank' arial-label='Instagram'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/aaacarcara/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href="mailto:meuprof.contato@gmail.com" target='_blank' arial-label='Email'>
+              <SocialIconLink rel="noreferrer" href="mailto:atleticamedufpi@gmail.com" target='_blank' arial-label='Email'>
                 <FaEnvelope />
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://twitter.com/MeuProf_/' target='_blank' arial-label='Twitter'>
+              <SocialIconLink rel="noreferrer" href='https://www.instagram.com/aaacarcara/' target='_blank' arial-label='Twitter'>
                 <FaTwitter/>
               </SocialIconLink>
-              <SocialIconLink rel="noreferrer" href='https://www.linkedin.com/company/meu-prof/' target='_blank' arial-label='Linkedin'>
-                <FaLinkedin />
+              <SocialIconLink rel="noreferrer" href='https://www.youtube.com/channel/UCJ58jGeYDkfiuIhejZUFKVA' target='_blank' arial-label='Youtube'>
+                <FaYoutube />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
