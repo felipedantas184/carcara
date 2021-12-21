@@ -258,7 +258,7 @@ export const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 180px;
+  max-width: 60%;
   
   margin-top: 8px;
   gap: 24px;

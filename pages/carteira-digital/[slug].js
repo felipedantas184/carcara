@@ -73,7 +73,6 @@ export const getStaticProps = async (context) => {
   const slug = context.params.slug;
   const data = sheets.filter(item => item.registration == slug );
 
-  console.log(data)
   return {
     props: { member: data[0] }
   }

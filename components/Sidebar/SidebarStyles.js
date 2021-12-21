@@ -8,7 +8,9 @@ export const SidebarContainer = styled.aside`
   width: 100%;
   height: 100%;
   background: #151E3F;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   top: 0;
   right: 0;
@@ -30,18 +32,30 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 `
+
+export const LogoWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 32px;
+`
+
 export const SidebarWrapper = styled.div`
   color: #fff;
 `
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(5, 80px);
   text-align: center;
 
   @media  screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
+    grid-template-rows: repeat(5, 60px);
   }
 `
 export const SidebarLink = styled(LinkS)`
@@ -55,9 +69,11 @@ export const SidebarLink = styled(LinkS)`
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 
   &:hover {
-    color: #A334CB;
+    color: #D2593C;
     transition: 0.2s ease-in-out;
   }
 `
@@ -66,26 +82,32 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `
 export const SidebarRoute = styled.p`
-  border-radius: 50px;
   background: #D2593C;
   white-space: nowrap;
   padding: 16px 64px;
-  color: #E6E6E6;
+  color: #FFF;
   font-size: 24px;
   outline:  none;
   border: none;
+  border-radius: 16px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 13px 27px -5px, rgba(0, 0, 0, 0.9) 0px 8px 16px -8px;	
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: #D4D4D4;
     color: #010606;
+	  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
 `
 export const ExtLink = styled.a`
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 
   &:not(:last-child) {
     margin-right: 16px;

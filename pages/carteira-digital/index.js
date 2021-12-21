@@ -22,8 +22,6 @@ export async function getStaticProps() {
 
 
 export default function Identification({ members }) {
-  console.log(members)
-
   return (
     <>
       <Head>

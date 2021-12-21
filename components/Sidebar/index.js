@@ -1,11 +1,15 @@
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap, ExtLink } from './SidebarStyles'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap, ExtLink, LogoWrapper } from './SidebarStyles'
+import Image from 'next/image';
 
 const Sidebar = ({isOpen,toggle}) => {
   return (
-    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+    <SidebarContainer isOpen={isOpen}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
+      <LogoWrapper>
+        <Image src="/LogoCarcara.png" width={70} height={70} />
+      </LogoWrapper>
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to='teachers' onClick={toggle}>Produtos</SidebarLink>
@@ -14,7 +18,7 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='start' onClick={toggle}>Instagram</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <ExtLink href="https://api.whatsapp.com/send?phone=5586995185757&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20o%20MeuProf.%0APode%20me%20ajudar%3F" target="blank" passHref >
+          <ExtLink href="https://www.instagram.com/aaacarcara/" target="blank" passHref >
             <SidebarRoute>Seja Sócio</SidebarRoute>
           </ExtLink>
         </SideBtnWrap>

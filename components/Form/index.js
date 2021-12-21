@@ -3,9 +3,17 @@ import { FormContainer, FormWrapper, Heading, Input, InputWrapper, Label, Subtit
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from 'next/router';
 
 const Form = () => {
     const [registration, setRegistration] = useState('')
+
+    const router = useRouter()
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        router.push(`/carteira-digital/${registration}`)
+    }
 
     return ( 
         <FormContainer>
@@ -16,8 +24,10 @@ const Form = () => {
 				</TextWrapper> 
 
                 <InputWrapper>
-                    <Input type='number' placeholder="Digite sua matrícula" value={registration} onChange={(e) => {setRegistration(e.target.value)}} />
+                <form style={{display: 'flex', width: '100%'}} onSubmit={handleSubmit}>
+                    <Input type='number' placeholder="Digite sua matrícula" value={registration} onChange={(e) => {setRegistration(e.target.value)}}/>
                     <Label>MATRÍCULA</Label>
+                </form>
                     <Link href={'/carteira-digital/' + registration } passHref >
                         <a>
                         <AiOutlineArrowRight size={32} color="#C4C4C4" style={{alignSelf: 'center'}} />
@@ -25,7 +35,7 @@ const Form = () => {
                     </Link>
                 </InputWrapper>
 
-                <Button orange >Vantagens Carcará</Button>
+                <Button orange>Vantagens Carcará</Button>
                 
 
             </FormWrapper>

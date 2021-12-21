@@ -116,7 +116,7 @@ export const InputWrapper = styled.div`
     left: 0px;
     right: 0px;
     bottom: 0px;
-    z-index: 999;
+    z-index: 900;
     height: 2px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
