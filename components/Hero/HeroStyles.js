@@ -33,7 +33,7 @@ export const LogoWrapper = styled.div`
 export const TextWrapper = styled.div`
   width: 100%;
   padding-top: 0;
-  margin-bottom: 75px;
+  margin-bottom: 48px;
 
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -41,7 +41,7 @@ export const TextWrapper = styled.div`
 `
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 400;
   line-height: 1.25;
   text-transform: uppercase;
