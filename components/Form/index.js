@@ -35,7 +35,11 @@ const Form = () => {
                     </Link>
                 </InputWrapper>
 
-                <Button orange>Vantagens Carcará</Button>
+                <Link href="/#discounts" >
+                <Button orange>
+                    Vantagens Carcará
+                </Button>
+                </Link>
                 
 
             </FormWrapper>

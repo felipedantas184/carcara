@@ -1,5 +1,6 @@
 import { createClient } from 'contentful'
 import Card from '../../components/Card'
+import Discounts from '../../components/Discounts';
 
 import { getDataFromSheets } from '../../libs/sheets';
 
@@ -86,7 +87,7 @@ export default function RecipeDetails({ member }) {
     return (
       <>
         <Card member={member} />
-    
+        <Discounts />
       </>
     )
 }

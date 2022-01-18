@@ -77,6 +77,25 @@ export const SidebarLink = styled(LinkS)`
     transition: 0.2s ease-in-out;
   }
 `
+export const SidebarExternalLink = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+  transition: 02s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+
+  &:hover {
+    color: #D2593C;
+    transition: 0.2s ease-in-out;
+  }
+`
 export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;

@@ -2,6 +2,7 @@ import { BottomCard, BottomText, CardTextWrapper, FlipCard, FlipCardBack, FlipCa
 import Image from 'next/image'
 import { Button, ButtonWrapper } from "../ButtonElement";
 import CardFlip from "../CardFlip";
+import { Link as LinkS } from "react-scroll";
 
 const Card = ({ member }) => {
 	{/**
@@ -59,7 +60,12 @@ const Card = ({ member }) => {
 					</FlipCardInner>
 				</FlipCard>
 
-				<Button orange>Vantagens Carcará</Button>
+				<Button orange>
+					<LinkS to='discounts'
+					smooth={true} duration={500} spy={true} exact='true' offset={0}>
+						Conhecer Vantagens
+					</LinkS>
+				</Button>
 				
 			</CardWrapper>
 		</CardContainer>
