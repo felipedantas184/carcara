@@ -2,12 +2,14 @@ import { ButtonLink, CardsWrapper, Container, DiscountCard, GridWrapper, HalfWra
 import Image from 'next/image'
 import { Sales } from "./DiscountsData";
 import { Slide } from "react-awesome-reveal";
+import { FiExternalLink } from "react-icons/fi"
 
 const Discounts = () => {
 	return (
-		<Container>
+		<Container id="discounts">
 			<GridWrapper>
 				<SectionHeading>Vantagens</SectionHeading>
+				<Slide triggerOnce direction="up" duration={1000} >
 				<CardsWrapper>
 				{Sales.map((item) => (
 					<DiscountCard key={item.instagram} >
@@ -18,10 +20,11 @@ const Discounts = () => {
 							<Heading>{item.name}</Heading>
 							<Subtitle>{item.description}</Subtitle>
 						</TextWrapper>
-						<ButtonLink href={item.imageUrl}>{item.instagram}</ButtonLink>
+						<ButtonLink href={`https://www.instagram.com/${item.instagram.slice(1)}`} target='_blank' >{item.instagram}<FiExternalLink size={16} color="#E6E6E6" style={{position: 'absolute', top: 0, right: '5%', bottom: 0, marginTop: 'auto', marginBottom: 'auto'}} /></ButtonLink>
 					</DiscountCard>	
 				))}			
 				</CardsWrapper>
+				</Slide>
 			</GridWrapper>
     </Container>
 	);

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Button = styled.div`
-	border-radius: 16px;
+	border-radius: 6px;
 	font-family: 'Rubik';
 	font-weight: 600;
 	background: ${({white, orange, transparent}) => (transparent ? 'transparent' : orange ? '#D2593C' : white ? '#FFF' : '#000' )};
@@ -33,4 +33,5 @@ export const ButtonWrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	gap: 16px;
+	margin-top: 48px;
 `

@@ -12,7 +12,7 @@ export const GridWrapper = styled.div`
   min-height: 100vh;
 	margin-left: auto;
 	margin-right: auto;
-  padding: 100px 16px 75px 16px;
+  padding: 75px 16px 75px 16px;
 
 	display: flex;
 	flex-direction: row;
@@ -93,7 +93,7 @@ export const ImageWrapper = styled.div`
 	width: 75px;
   height: 75px;
 	border-radius: 75px;
-	border: 2px solid #F6F6F6;
+	border: 3px solid #E6E6E6;
 	overflow: hidden;
 `;
 export const CardsWrapper = styled.div`
@@ -133,10 +133,11 @@ export const DiscountCard = styled.div`
 	}
 `
 export const ButtonLink = styled.a`
-	width: 75%;
+	width: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 	
 	padding: 10px 10px;
 	background-color: #23232A;
@@ -155,7 +156,9 @@ export const ButtonLink = styled.a`
 	text-decoration: none;
 
 	&:hover {
-		box-shadow: rgba(21, 21, 21, 0.4) 0px 3px;
+		box-shadow: rgba(21, 21, 21, 0.4) 1.5px 3px;
+		background-color: #13131A;
+		color: #FFF;
 	}
 
 	@media screen and (min-width: 768px) {

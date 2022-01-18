@@ -41,8 +41,9 @@ export const LogoWrapper = styled.div`
 `
 
 export const MobileIcon = styled.div`
-  display: none;
-  
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
   @media screen and (max-width: 768px) {
     display: block;
     font-size: 1.8rem;
