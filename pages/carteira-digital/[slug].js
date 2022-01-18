@@ -1,6 +1,7 @@
 import { createClient } from 'contentful'
 import Card from '../../components/Card'
 import Discounts from '../../components/Discounts';
+import Head from 'next/head'
 
 import { getDataFromSheets } from '../../libs/sheets';
 
