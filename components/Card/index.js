@@ -25,7 +25,7 @@ const Card = ({ member }) => {
 						</InfoImageWrapper>
 
 						<InfoLogoWrapper>
-							<Image src="/LogoCarcara.png" alt="Carcará Logo" layout="fill" placeholder="blur" blurDataURL='/LogoCarcara.png' layout="fill"/>
+							<Image src="/LogoCarcara.png" alt="Carcará Logo" placeholder="blur" blurDataURL='/LogoCarcara.png' layout="fill"/>
 						</InfoLogoWrapper>
 					</TopRow>
 
