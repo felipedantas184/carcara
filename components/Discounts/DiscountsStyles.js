@@ -67,7 +67,7 @@ export const Heading = styled.h1`
   font-weight: 600;
 	font-family: 'Rubik';
   line-height: 1.1;
-  color: #000;
+  color: #F6F6F6;
 
 	text-align: center;
 `
@@ -76,7 +76,7 @@ export const Subtitle = styled.h2`
   font-weight: 400;
   line-height: 1.3;
   font-family: 'Rubik';
-  color: #13131A;
+  color: #E6E6E6;
 
 	text-align: center;
 	white-space: pre-wrap;
@@ -116,8 +116,10 @@ export const DiscountCard = styled.div`
 	height: auto;
 	padding: 45px 16px 8px 16px;
 	border-radius: 16px;
-	background-color: #E6E6E6;
 	border: 2px solid #F6F6F6;
+
+	background-color: #151E3F;
+	background: linear-gradient(225deg, #151E3F 50%, #090979 80.98%);
 
 	position: relative;
 	display: flex;
@@ -140,8 +142,8 @@ export const ButtonLink = styled.a`
 	position: relative;
 	
 	padding: 10px 10px;
-	background-color: #23232A;
-	color: #FFF;
+	background-color: #E1E2E3;
+	color: #23232A;
 
 	font-family: 'Rubik';
 	font-size: 16px;

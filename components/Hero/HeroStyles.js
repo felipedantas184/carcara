@@ -42,6 +42,7 @@ export const LogoWrapper = styled.div`
   height: 300px;
 
   border-radius: 300px;
+  overflow: hidden;
 
   display: flex;
   justify-content: center;

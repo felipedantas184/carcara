@@ -14,13 +14,13 @@ const Discounts = () => {
 				{Sales.map((item) => (
 					<DiscountCard key={item.instagram} >
 						<ImageWrapper>
-							<Image src={item.imageUrl} layout="fill" />
+							<Image src={item.imageUrl} atl={item.name} layout="fill" />
 						</ImageWrapper>
 						<TextWrapper>
 							<Heading>{item.name}</Heading>
 							<Subtitle>{item.description}</Subtitle>
 						</TextWrapper>
-						<ButtonLink href={`https://www.instagram.com/${item.instagram.slice(1)}`} target='_blank' >{item.instagram}<FiExternalLink size={16} color="#E6E6E6" style={{position: 'absolute', top: 0, right: '5%', bottom: 0, marginTop: 'auto', marginBottom: 'auto'}} /></ButtonLink>
+						<ButtonLink href={`https://www.instagram.com/${item.instagram.slice(1)}/?__a=1`} target='_blank' >{item.instagram}<FiExternalLink size={16} color="#13131A" style={{position: 'absolute', top: 0, right: '5%', bottom: 0, marginTop: 'auto', marginBottom: 'auto'}} /></ButtonLink>
 					</DiscountCard>	
 				))}			
 				</CardsWrapper>

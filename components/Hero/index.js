@@ -9,7 +9,7 @@ const Hero = () => {
 		<HeroContainer>
 			<HeroWrapper>
 				<LogoWrapper>	
-					<Image src="/LogoCarcara.png" layout="fill" />
+					<Image src="/LogoCarcara.png" alt="Carcará" placeholder="blur" blurDataURL='/LogoCarcara.png' layout="fill" />
 				</LogoWrapper>
 
 				<TextWrapper>

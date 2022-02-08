@@ -399,10 +399,10 @@ export const BottomText = styled.p`
 //--------New Changes--------//
 export const InfoCardWrapper = styled.div`
   background: #18114D;
-  background: linear-gradient(225deg, #00A1FF 0%, #18114D 55.98%);
+  background: linear-gradient(225deg, #00A1FF 0%, #18114D 60%);
 
-  background-size: 150% auto;
-	animation: gradient 10s linear infinite;
+  background-size: 200% auto;
+  animation: gradient 15s linear infinite;
 	background-position: 0% 0%;
 
   height: auto;
@@ -420,16 +420,22 @@ export const InfoCardWrapper = styled.div`
 
   position: relative;
 
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    transform: scale(1.015);
+  }
+
   @keyframes gradient {
 	 0% {
-		 background-position: 0 0;
-	}
-	50% {
-		background-position: 75% 0;
-	}
-	 100% {
 		 background-position: 0% 0;
-	}
+	  }
+    50% {
+      background-position: 50% 0;
+    }
+    100% {
+      background-position: 0% 0;
+    }
 	}
 `
 
@@ -470,6 +476,9 @@ export const InfoLogoWrapper = styled.div`
 
 	width: 75px;
 	height: 75px;
+
+  border-radius: 75px;
+  overflow: hidden;
 
 	@media screen and (max-width: 768px) {
 		width: 75px;
