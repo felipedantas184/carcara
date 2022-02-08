@@ -20,7 +20,7 @@ const Discounts = () => {
 							<Heading>{item.name}</Heading>
 							<Subtitle>{item.description}</Subtitle>
 						</TextWrapper>
-						<ButtonLink href={`https://www.instagram.com/${item.instagram.slice(1)}/?__a=1`} target='_blank' >{item.instagram}<FiExternalLink size={16} color="#13131A" style={{position: 'absolute', top: 0, right: '5%', bottom: 0, marginTop: 'auto', marginBottom: 'auto'}} /></ButtonLink>
+						<ButtonLink href={`https://www.instagram.com/${item.instagram.slice(1)}`} target='_blank' >{item.instagram}<FiExternalLink size={16} color="#13131A" style={{position: 'absolute', top: 0, right: '5%', bottom: 0, marginTop: 'auto', marginBottom: 'auto'}} /></ButtonLink>
 					</DiscountCard>	
 				))}			
 				</CardsWrapper>
