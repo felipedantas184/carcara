@@ -29,12 +29,12 @@ export default function Home({ data }) {
       <main>
         <h1>Welcome to Nextsheet 💩</h1>
         <p>Connecting NextJS with Google Spreadsheets as Database</p>
-        <p>Example fetched from Google Spreadsheet:</p>
+        <p>Example fetched from Google Spreadsheet: </p>
         <ul>
           {data && data.length ? (
             data.map((item) => (
-              <li key={item}>
-                {item.title} - {item.description}
+              <li key={item.registration}>
+                {item.name} - {item.registration}
               </li>
             ))
           ) : (

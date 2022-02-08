@@ -1,4 +1,4 @@
-import { BottomCard, BottomText, CardTextWrapper, FlipCard, FlipCardBack, FlipCardFront, FlipCardInner, Heading, CardContainer, CardWrapper, InfoGroupOne, InfoGroupTwo, InfoResponse, InfoTitle, InfoWrapper, LogoWrapper, ProfilePicWrapper, Subtitle, TextWrapper, TopCard, UserName, UserRegistration } from "./CardStyles";
+import { BottomCard, BottomText, CardTextWrapper, FlipCard, FlipCardBack, FlipCardFront, FlipCardInner, Heading, CardContainer, CardWrapper, InfoGroupOne, InfoGroupTwo, InfoResponse, InfoTitle, InfoWrapper, LogoWrapper, ProfilePicWrapper, Subtitle, TextWrapper, TopCard, UserName, UserRegistration, TopRow, InfoImageWrapper, InfoTextWrapper, InfoGroup, InfoGroupTitle, InfoGroupDescription, InfoCardWrapper, DoubleGroup, CardBottomText, InfoLogoWrapper } from "./CardStyles";
 import Image from 'next/image'
 import { Button, ButtonWrapper } from "../ButtonElement";
 import CardFlip from "../CardFlip";
@@ -18,7 +18,64 @@ const Card = ({ member }) => {
 					<Heading>Carteira<br />Digital</Heading>
 				</TextWrapper>
 
-				<FlipCard>
+				<InfoCardWrapper>
+					<TopRow>
+						<InfoImageWrapper>
+							<Image src={member.imageUrl} alt={member.name} layout="fill" />
+						</InfoImageWrapper>
+
+						<InfoLogoWrapper>
+							<Image src="/LogoCarcara.png" layout="fill" />
+						</InfoLogoWrapper>
+					</TopRow>
+
+					<InfoTextWrapper>
+						<InfoGroup>
+							<InfoGroupTitle>Nome</InfoGroupTitle>
+							<InfoGroupDescription>{member.name}</InfoGroupDescription>
+						</InfoGroup>
+
+						<DoubleGroup>
+							<InfoGroup>
+								<InfoGroupTitle>Matrícula</InfoGroupTitle>
+								<InfoGroupDescription>{member.registration}</InfoGroupDescription>
+							</InfoGroup>
+
+							<InfoGroup>
+								<InfoGroupTitle>R.G.</InfoGroupTitle>
+								<InfoGroupDescription>{member.document}</InfoGroupDescription>
+							</InfoGroup>
+						</DoubleGroup>
+
+						<DoubleGroup>
+							<InfoGroup>
+								<InfoGroupTitle>Validade</InfoGroupTitle>
+								<InfoGroupDescription>Mar/2023</InfoGroupDescription>
+							</InfoGroup>
+							
+							<InfoGroup>
+								<InfoGroupTitle>Turma</InfoGroupTitle>
+								<InfoGroupDescription>93</InfoGroupDescription>
+							</InfoGroup>
+						</DoubleGroup>
+					</InfoTextWrapper>	
+
+					<CardBottomText>Associação Atlética <br/>Acadêmica Carcará</CardBottomText>
+
+				</InfoCardWrapper>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				{/*<FlipCard>
 					<FlipCardInner>
 						<FlipCardFront>
 							<CardTextWrapper>
@@ -55,10 +112,8 @@ const Card = ({ member }) => {
 								</BottomCard>
 							</CardTextWrapper>
 						</FlipCardFront>
-						<FlipCardBack>
-						</FlipCardBack>
 					</FlipCardInner>
-				</FlipCard>
+				</FlipCard>*/}
 
 				<Button orange>
 					<LinkS to='discounts'
