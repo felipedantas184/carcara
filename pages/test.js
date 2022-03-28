@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Card from "../components/Card";
 
 import { getDataFromSheets } from '../libs/sheets';
 
@@ -33,9 +34,7 @@ export default function Home({ data }) {
         <ul>
           {data && data.length ? (
             data.map((item) => (
-              <li key={item.registration}>
-                {item.name} - {item.registration}
-              </li>
+              <Card key={item.registration} member={item} />
             ))
           ) : (
             <li>Error: do not forget to setup your env variables 👇</li>

@@ -55,7 +55,7 @@ const Card = ({ member }) => {
 							
 							<InfoGroup>
 								<InfoGroupTitle>Turma</InfoGroupTitle>
-								<InfoGroupDescription>93</InfoGroupDescription>
+								<InfoGroupDescription>{member.class}</InfoGroupDescription>
 							</InfoGroup>
 						</DoubleGroup>
 					</InfoTextWrapper>	

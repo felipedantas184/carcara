@@ -24,6 +24,7 @@ export async function getDataFromSheets() {
         registration: row[2],
         document: row[3],
         imageUrl: `https://drive.google.com/uc?id=${row[4].slice(33)}`,
+        class: row[5]
       }));
     }
   } catch (err) {
