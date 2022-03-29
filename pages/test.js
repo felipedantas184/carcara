@@ -34,7 +34,10 @@ export default function Home({ data }) {
         <ul>
           {data && data.length ? (
             data.map((item) => (
-              <Card key={item.registration} member={item} />
+              <li key={item.registration}>
+                {item.name} - {item.registration} - {item.document} - {item.class} - {item.imageUrl}
+                <img src={item.imageUrl} style={{width: 70, height: 70}} />
+              </li>
             ))
           ) : (
             <li>Error: do not forget to setup your env variables 👇</li>
