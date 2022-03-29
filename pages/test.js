@@ -36,7 +36,6 @@ export default function Home({ data }) {
             data.map((item) => (
               <li key={item.registration}>
                 {item.name} - {item.registration} - {item.document} - {item.class} - {item.imageUrl}
-                <img src={item.imageUrl} style={{width: 70, height: 70}} />
               </li>
             ))
           ) : (
