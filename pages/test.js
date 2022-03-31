@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Card from "../components/Card";
 
+import { MembersData } from "../components/Card/CardData"
 import { getDataFromSheets } from '../libs/sheets';
 
 export async function getStaticProps(context) {
@@ -32,15 +33,14 @@ export default function Home({ data }) {
         <p>Connecting NextJS with Google Spreadsheets as Database</p>
         <p>Example fetched from Google Spreadsheet: </p>
         <ul>
-          {data && data.length ? (
-            data.map((item) => (
+          {MembersData.map((item) => (
               <li key={item.registration}>
-                {item.name} - {item.registration} - {item.document} - {item.class} - {item.imageUrl}
+                
+                name: '{item.name}', registration: '{item.registration}', document: '{item.document}', class: '{item.class}', imageUrl: '{item.imageUrl}'
+                
               </li>
             ))
-          ) : (
-            <li>Error: do not forget to setup your env variables 👇</li>
-          )}
+          }
         </ul>
         <h2>Setting up environment variables</h2>
         <code>GOOGLE_SHEETS_PRIVATE_KEY=[YOUR KEY]</code>

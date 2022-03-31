@@ -3,7 +3,7 @@ import Card from '../../components/Card'
 import Discounts from '../../components/Discounts';
 import Head from 'next/head'
 
-import { getDataFromSheets } from '../../libs/sheets';
+import { MembersData } from '../../components/Card/CardData'
 
 
 {/*---> BEGIN CONTENTFUL PART
@@ -54,12 +54,18 @@ export const getStaticProps = async ({ params }) => {
 
 {/* USING GOOGLE SPREADSHEET */}
 export const getStaticPaths = async () => {
-  const sheets = await getDataFromSheets();
+  /*const sheets = await getDataFromSheets();
 
   const paths = sheets.map(item => {
   return {
     params: { slug: item.registration }
   }
+  */
+
+  const paths = MembersData.map(item => {
+    return {
+      params: { slug: item.registration }
+    }
 })
 
 return {
@@ -69,11 +75,19 @@ return {
 }
 
 export const getStaticProps = async (context) => {
-  const sheets = await getDataFromSheets();
+  /*const sheets = await getDataFromSheets();
 
 
   const slug = context.params.slug;
   const data = sheets.filter(item => item.registration == slug );
+
+  return {
+    props: { member: data[0] }
+  }
+  */
+
+  const slug = context.params.slug;
+  const data = MembersData.filter(item => item.registration == slug );
 
   return {
     props: { member: data[0] }

@@ -21,11 +21,11 @@ const Card = ({ member }) => {
 				<InfoCardWrapper>
 					<TopRow>
 						<InfoImageWrapper>
-							<Image src={member.imageUrl} alt={member.name} placeholder="blur" blurDataURL={member.imageUrl} layout="fill" />
+							<Image src={member.imageUrl} alt={member.name} layout="fill" objectFit="cover" />
 						</InfoImageWrapper>
 
 						<InfoLogoWrapper>
-							<Image src="/LogoCarcara.png" alt="Carcará Logo" placeholder="blur" blurDataURL='/LogoCarcara.png' layout="fill"/>
+							<Image src="/LogoCarcara.png" alt="Carcará Logo" layout="fill"/>
 						</InfoLogoWrapper>
 					</TopRow>
 
