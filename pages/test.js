@@ -36,7 +36,7 @@ export default function Home({ data }) {
           {MembersData.map((item) => (
               <li key={item.registration}>
                 
-                name: '{item.name}', registration: '{item.registration}', document: '{item.document}', class: '{item.class}', imageUrl: '{item.imageUrl}'
+                name: {item.name}, registration: {item.registration}, document: {item.document}, class: {item.class}, imageUrl: {item.imageUrl}
                 
               </li>
             ))
