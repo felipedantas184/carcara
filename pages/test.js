@@ -34,11 +34,7 @@ export default function Home({ data }) {
         <p>Example fetched from Google Spreadsheet: </p>
         <ul>
           {MembersData.map((item) => (
-              <li key={item.registration}>
-                
-                name: {item.name}, registration: {item.registration}, document: {item.document}, class: {item.class}, imageUrl: {item.imageUrl}
-                
-              </li>
+              <Card key={item.registration} member={item} />
             ))
           }
         </ul>

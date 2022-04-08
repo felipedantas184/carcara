@@ -21,7 +21,7 @@ const Card = ({ member }) => {
 				<InfoCardWrapper>
 					<TopRow>
 						<InfoImageWrapper>
-							<Image src={member.imageUrl} alt={member.name} layout="fill" objectFit="cover" />
+							<Image src={member.imageUrl} alt={member.name} layout="fill" placeholder="blur" blurDataURL={member.imageUrl} objectFit="cover" />
 						</InfoImageWrapper>
 
 						<InfoLogoWrapper>
@@ -32,7 +32,7 @@ const Card = ({ member }) => {
 					<InfoTextWrapper>
 						<InfoGroup>
 							<InfoGroupTitle>Nome</InfoGroupTitle>
-							<InfoGroupDescription>{member.name}</InfoGroupDescription>
+							<InfoGroupDescription style={{textTransform: 'capitalize'}} >{member.name}</InfoGroupDescription>
 						</InfoGroup>
 
 						<DoubleGroup>
