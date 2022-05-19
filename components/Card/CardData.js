@@ -484,7 +484,7 @@ export const MembersData = [
     },
     {
         name: 'João Vitor Uchôa Bastos ',
-        registration: '201990136351',
+        registration: '20199036351',
         document: '4.079.773',
         class: '94',
         imageUrl: '/members/joao_vitor_uchoa.jpg'
