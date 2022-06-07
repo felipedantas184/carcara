@@ -449,7 +449,7 @@ export const MembersData = [
     },
     {
         name: 'Joan eduardo pereira farias',
-        registration: '12345002',
+        registration: '20229007286',
         document: '3054566',
         class: '99',
         imageUrl: '/members/joan_farias.webp'
@@ -547,7 +547,7 @@ export const MembersData = [
     },
     {
         name: 'Karoline Raiane da Silva Nascimento',
-        registration: '2020951803',
+        registration: '20209051803',
         document: '046370962012-3',
         class: '96',
         imageUrl: '/members/karoline_raiane.png'
@@ -589,7 +589,7 @@ export const MembersData = [
     },
     {
         name: 'Letícia Beatriz Coutinho Alves ',
-        registration: '12345003',
+        registration: '20229004909',
         document: '3625692',
         class: '99',
         imageUrl: '/members/leticia_coutinho.jpg'
@@ -652,7 +652,7 @@ export const MembersData = [
     },
     {
         name: 'Lucca Vieira Silva Nunes',
-        registration: '12345004',
+        registration: '20229006636',
         document: '3407757',
         class: '99',
         imageUrl: '/members/lucca_vieira.jpeg'
@@ -687,7 +687,7 @@ export const MembersData = [
     },
     {
         name: 'Maria Clara Leitão de Sousa',
-        registration: '12345006',
+        registration: '20229003447',
         document: '4361001',
         class: '99',
         imageUrl: '/members/maria_clara.jpeg'
@@ -771,7 +771,7 @@ export const MembersData = [
     },
     {
         name: 'Peddro Henrique Werneck Vieira de Souza',
-        registration: '12345007',
+        registration: '20229000688',
         document: 'MG-22.755.514',
         class: '99',
         imageUrl: '/members/peddro_werneck.jpg'
@@ -960,7 +960,7 @@ export const MembersData = [
     },
     {
         name: 'Vinícius Nunes Miranda',
-        registration: '12345009',
+        registration: '20229001326',
         document: '2.795.050',
         class: '99',
         imageUrl: '/members/vinicius_miranda.jpeg'
@@ -973,7 +973,7 @@ export const MembersData = [
         imageUrl: '/members/vinicius_santos.jpg'
     },
     {
-        name: 'Vitor Expedito Alves Ribeiro ',
+        name: 'Vitor Expedito Alves Ribeiro',
         registration: '12345000',
         document: '4093058',
         class: '99',
