@@ -25,7 +25,7 @@ export const MembersData = [
         registration: '20179129711',
         document: 'MG-18.110.212',
         class: '90',
-        imageUrl: '/'
+        imageUrl: '/members/ana_paiva.jpg'
       },
       {
         name: 'Ana Lícia Soares Mineiro Rocha',
@@ -39,7 +39,7 @@ export const MembersData = [
         registration: '20189051087',
         document: '3763196',
         class: '92',
-        imageUrl: '/'
+        imageUrl: '/members/ana_vitoria.jpg'
       },
       {
         name: 'Ana Vitória Lima de Carvalho',
@@ -53,7 +53,7 @@ export const MembersData = [
         registration: '20229002412',
         document: '2.977.753',
         class: '99',
-        imageUrl: '/'
+        imageUrl: '/members/andre_isac.jpg'
       },
       {
         name: 'André Luis Dias de Figueiredo',
@@ -81,7 +81,7 @@ export const MembersData = [
         registration: '20229003385',
         document: '3846709',
         class: '99',
-        imageUrl: '/'
+        imageUrl: '/members/arthur_portela.jpeg'
       },
       {
         name: 'Benjamim Barbosa de Azevedo',
@@ -95,21 +95,21 @@ export const MembersData = [
         registration: '20189003670',
         document: '3775405',
         class: '91',
-        imageUrl: '/'
+        imageUrl: '/members/bianca_leal.jpeg'
       },
       {
         name: 'Bianca Matos Fonsêca',
         registration: '20209008900',
         document: '3.433.737',
         class: '95',
-        imageUrl: '/'
+        imageUrl: '/members/bianca_matos.jpg'
       },
       {
         name: 'Caio Fernando Rodrigues de Castro',
         registration: '20219037076',
         document: '4292433',
         class: '98',
-        imageUrl: '/'
+        imageUrl: '/members/caio_fernando.jpg'
       },
       {
         name: 'Camila Ramalho Teixeira Queiroz',
@@ -158,21 +158,21 @@ export const MembersData = [
         registration: '20169007869',
         document: '3.215.790',
         class: '89',
-        imageUrl: 'https://drive.google.com/uc?id=1EPN4gkpCKDEligYyMh4iTUnAzU9hiJ7a',
+        imageUrl: '/members/dianna_paz.jpeg'
       },
       {
         name: 'Ezequiel Marcos de Sousa Rocha',
         registration: '20179142188',
         document: '3454011',
         class: '90',
-        imageUrl: 'https://drive.google.com/uc?id=1CYJpoZWxY_VMvFaRlp9FElFVp1u_FaHv',
+        imageUrl: '/members/ezequiel_rocha.jpg'
       },
       {
         name: 'Fábio Feitosa Rêgo Filho',
         registration: '20189003070',
         document: '4115723',
         class: '91',
-        imageUrl: 'https://drive.google.com/uc?id=1GgA_wNHXwh3aWYXCwzRAe6rtoBQCge0N',
+        imageUrl: '/members/fabio_filho.JPG'
       },
       {
         name: 'Felipe Augusto Oliveira Dantas',
@@ -200,7 +200,7 @@ export const MembersData = [
         registration: '20209004812',
         document: '3.857.384',
         class: '95',
-        imageUrl: 'https://drive.google.com/uc?id=19Si319x8KU9etIKSf8sENl1DsfplouME',
+        imageUrl: '/members/francisco_augusto.jpg'
       },
       {
         name: 'Francisco Gabriel Thomaz Bastos',
@@ -242,7 +242,7 @@ export const MembersData = [
         registration: '20199036960',
         document: '4.643.219',
         class: '94',
-        imageUrl: 'https://drive.google.com/uc?id=1Xfe7W1SP0YUSRE42l61YqLItQDG09bli',
+        imageUrl: '/members/gabriel_henrique.jpeg'
       },
       {
         name: 'Gabriel Rudá Vieira e Silva',
@@ -277,14 +277,14 @@ export const MembersData = [
         registration: '20229009825',
         document: '3483496',
         class: '99',
-        imageUrl: 'https://drive.google.com/uc?id=100nHHUTckycZquPH4DoLlhgGTgRn6a0O',
+        imageUrl: '/members/guilherme_ferreira.jpeg'
       },
       {
         name: 'Guilherme Victor Antas Cronemberger',
         registration: '20209050468',
         document: '4144368',
         class: '96',
-        imageUrl: 'https://drive.google.com/uc?id=1c_mnsFXITWUSEp1lpEUs7zXJXVzK8ab4',
+        imageUrl: '/members/guilherme_cronemberger.jpeg'
       },
       {
         name: 'Hanna Gomes',
@@ -305,7 +305,7 @@ export const MembersData = [
         registration: '20199011479',
         document: '3927735',
         class: '93',
-        imageUrl: 'https://drive.google.com/uc?id=1QTTWR0BfDsevfRX6ZyaF9qCIPLAwwKFs',
+        imageUrl: '/members/ian_barros.jpg'
       },
       {
         name: 'Isabela Madeira de Sá Pacheco',
@@ -326,14 +326,14 @@ export const MembersData = [
         registration: '20219033030',
         document: '20077373345',
         class: '98',
-        imageUrl: 'https://drive.google.com/uc?id=1R5QyUEZUht6g2rvrqzIx3mgGGQH-u0Q4',
+        imageUrl: '/members/isabelle_loureiro.png'
       },
       {
         name: 'Italo kaleu ferreira meneses',
         registration: '20229015260',
         document: '2.359.978',
         class: '99',
-        imageUrl: 'https://drive.google.com/uc?id=134qQS_IGR2UvvwIHo3WOHDAIi8ANlo1W',
+        imageUrl: '/members/italo_kaleu.jpeg'
       },
       {
         name: 'Joan eduardo pereira farias',
@@ -354,14 +354,14 @@ export const MembersData = [
         registration: '20189003446',
         document: '4063460',
         class: '91',
-        imageUrl: 'https://drive.google.com/uc?id=1N6woCvMG6Wqdg58jXzAxHIGoi52wdVDC',
+        imageUrl: '/members/joao_victor_araujo.jpg'
       },
       {
         name: 'João Victor Ferreira de Sousa',
         registration: '20219013815',
         document: '3551967',
         class: '97',
-        imageUrl: 'https://drive.google.com/uc?id=1hqqfQQsebE6T34cBvqtjnBlPIMAgYU6u',
+        imageUrl: '/members/joao_victor_ferreira.jpg'
       },
       {
         name: 'João Vitor Uchôa Bastos',
@@ -389,7 +389,7 @@ export const MembersData = [
         registration: '20189035987',
         document: '3807748',
         class: '92',
-        imageUrl: 'https://drive.google.com/uc?id=1m_VM0VFqvcHmpIKZKflR_CW4Pcf9Hw1x',
+        imageUrl: '/members/kaio_danillo.jpeg'
       },
       {
         name: 'Kaio Nonato Bastos Ferreira',
@@ -438,7 +438,7 @@ export const MembersData = [
         registration: '20189036222',
         document: '3072128',
         class: '92',
-        imageUrl: 'https://drive.google.com/uc?id=1Wo6enaGUcoeeKCXPwec9gHAzJ0mEhOdw',
+        imageUrl: '/members/luanna_xavier.jpeg'
       },
       {
         name: 'Lucas Celestino de Sousa Medeiros',
@@ -459,7 +459,7 @@ export const MembersData = [
         registration: '20199036324',
         document: '062 729 993 80',
         class: '94',
-        imageUrl: 'https://drive.google.com/uc?id=1Rx4vVPZJNSemZ0NjrRFAcA3kgGEoZOIa',
+        imageUrl: '/members/lucas_leonardo.jpeg'
       },
       {
         name: 'Lucas Loureiro Silveira Reis',
@@ -487,28 +487,28 @@ export const MembersData = [
         registration: '201990036914',
         document: '046886372012-9',
         class: '95',
-        imageUrl: 'https://drive.google.com/uc?id=1JeqFOWQ3KvG9UH6fHzvy5gAKmJbcLrK6',
+        imageUrl: '/members/lyza_helen.jpg'
       },
       {
         name: 'Marcos Aurélio de Barros Linhares',
         registration: '20179122891',
         document: '9.046.889',
         class: '90',
-        imageUrl: 'https://drive.google.com/uc?id=1spcQT6WvdDmwZEqAyu52M0-RIveLveX2',
+        imageUrl: '/members/marcos_aurelio.jpg'
       },
       {
         name: 'Marcos Vinícius Bertoldo Gomes',
         registration: '20179131756',
         document: '6377001',
         class: '90',
-        imageUrl: 'https://drive.google.com/uc?id=1-RWyrsXzZxg21FAlbBtg6248wA7mSUE3',
+        imageUrl: '/members/marcos_bertoldo.jpeg'
       },
       {
         name: 'Marcos Wilson Melo Rocha',
         registration: '20209051456',
         document: '4055800',
         class: '96',
-        imageUrl: 'https://drive.google.com/uc?id=11ggmrNKPUw4O7S-iv1t-thTVQV-_Dix8',
+        imageUrl: '/members/marcos_wilson.jpeg'
       },
       {
         name: 'Maria Clara Leitão de Sousa',
@@ -522,7 +522,7 @@ export const MembersData = [
         registration: '20219001547',
         document: '074158892021-3',
         class: '97',
-        imageUrl: 'https://drive.google.com/uc?id=1W5ZEFoQhqCb7zpKoKw218xXyddp5nrkV',
+        imageUrl: '/members/maria_clara_coimbra.jpeg'
       },
       {
         name: 'Maria Fernanda Vasconcelos Sá',
@@ -543,7 +543,7 @@ export const MembersData = [
         registration: '20219032472',
         document: '4314243',
         class: '98',
-        imageUrl: 'https://drive.google.com/uc?id=1dom4TQQJsaTY7TaIM2n2DmC6b53YeM6E',
+        imageUrl: '/members/maria_vitoria_ferreira.jpeg'
       },
       {
         name: 'Mateus Elpidio Soares Marques',
@@ -564,14 +564,14 @@ export const MembersData = [
         registration: '20209010239',
         document: '4.308.966',
         class: '95',
-        imageUrl: 'https://drive.google.com/uc?id=1Ymd3c0pKnMB44IXY92yvebi7_uh_k4Ib',
+        imageUrl: '/members/myllena_silva.jpeg'
       },
       {
         name: 'Paulo Airton Cordeiro de Souza Júnior',
         registration: '20209001187',
         document: '3553612',
         class: '95',
-        imageUrl: 'https://drive.google.com/uc?id=1JD_wupYsNHUJsHeHGrnE6G6zH82wBgIj',
+        imageUrl: '/members/paulo_airton.jpeg'
       },
       {
         name: 'Pedro Gabriel Rebelato Pertence',
@@ -599,7 +599,7 @@ export const MembersData = [
         registration: '20209058789',
         document: '20150118494',
         class: '96',
-        imageUrl: 'https://drive.google.com/uc?id=1qwd3YnUo0v7S9H1uXFlopbqLw2W50Rdw',
+        imageUrl: '/members/raimundo_nonato.jpeg'
       },
       {
         name: 'Regiane Maria Batista Costa',
