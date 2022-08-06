@@ -32,6 +32,11 @@ export default function Home({ data }) {
         <h1>Welcome to Nextsheet 💩</h1>
         <p>Connecting NextJS with Google Spreadsheets as Database</p>
         <p>Example fetched from Google Spreadsheet: </p>
+        <ul>
+          {MembersData.map((item) => (
+            <Card key={item.registration} member={item} />
+          ))}
+        </ul>
         {/**
         <ul>
           {MembersData.map((item) => (
